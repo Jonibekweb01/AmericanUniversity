@@ -1,0 +1,27 @@
+/* Featured Stories styles */
+.featured-stories {
+    padding: 50px 0;
+}
+
+.stories {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stories article {
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+.stories img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.stories h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}

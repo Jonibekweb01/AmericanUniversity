@@ -1,0 +1,25 @@
+/* News Categories styles */
+.categories {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category {
+    flex: 1;
+    max-width: 23%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

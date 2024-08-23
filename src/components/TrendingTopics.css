@@ -1,0 +1,27 @@
+/* Trending Topics styles */
+.trending-topics {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.topics {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.topic {
+    max-width: 100%;
+    width: 100%;
+}
+
+.topic img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.topic h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
